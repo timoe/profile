@@ -1,0 +1,38 @@
+baseURL = "localhost:1313"
+languageCode = "en-us"
+title = "Timos Portfolio Website"
+theme = "hugo-lodi-theme"
+
+[params]
+    theme_color = "#574CDD"
+    description = "Portfolio of Timo Eckhardt"
+    description_photo = "timo-avatar.jpg"
+    favicon = "favicon.png"
+    logo = "logo.png"
+    email = "myemail@gmail.com"
+    twitter = "timo_e_aus_e"
+    linkedin = "https://www.linkedin.com/in/timo-eckhardt-0b709812/"
+    medium = "timo_e_aus_e"
+
+[params.nav]
+    enable = false
+
+[params.hero]
+    enable = true
+    avatar = "timo-avatar.jpg"
+    subtitle = "Hi! I'm Timo. I'm a Software Engineer. Right now, I do software for the cloud, in the cloud."
+    hero_right = ["**Currently working at Adobe, Hamburg as a Cloud Engineer.**", "I'm supporting Adobes Cloud Offerings Creative Cloud and Document Cloud for File Storage, Collaborative Features and Enterprise Support in the Backend.", "I like programming, cutting edge technologies, building scalable architectures and good API design. Agile development is the key for better software, working in a joined, cross functional team the way to learn to love what you build.", "I like working with people. I'm good in forming teams and in motivating people. I am an retrospective facilitator, serving agile retrospectives to help good teams getting great."]
+    resume = "https://www.linkedin.com/in/timo-eckhardt-0b709812/"
+
+[params.process]
+    enable = false
+    title = "My Process"
+    subtitle = "Full Process Design"
+
+[params.case_studies]
+    enable = false
+    title = "Case Studies"
+    subtitle = "Selected Works"
+
+[params.footer]
+    enable = false
